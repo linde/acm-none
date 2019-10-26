@@ -1,0 +1,11 @@
+apiVersion: configmanagement.gke.io/v1
+kind: ConfigManagement
+metadata:
+  name: config-management
+  namespace: config-management-system
+spec:
+  clusterName: none-secret-cluster
+  git:
+    secretType: ssh
+    syncRepo: git@github.com:linde/acm-none.git 
+    policyDir: config-root
