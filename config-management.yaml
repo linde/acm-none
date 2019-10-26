@@ -6,6 +6,6 @@ metadata:
 spec:
   clusterName: none-secret-cluster
   git:
-    secretType: ssh
-    syncRepo: git@github.com:linde/acm-none.git 
+    secretType: none
+    syncRepo: https://github.com/linde/acm-none.git
     policyDir: config-root
