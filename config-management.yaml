@@ -9,3 +9,5 @@ spec:
     secretType: none
     syncRepo: https://github.com/linde/acm-none.git
     policyDir: config-root
+    syncToken: 84ae7c26
+    
