@@ -36,6 +36,7 @@ metadata:
   namespace: &app httpbin
   name: *app
 spec:
+  type: LoadBalancer
   ports:
   - name: http
     port: 8000
