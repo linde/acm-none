@@ -8,5 +8,5 @@ spec:
   git:
     secretType: none
     syncRepo: https://github.com/linde/acm-none.git
+    syncBranch: httpbin
     policyDir: config-root
-    
