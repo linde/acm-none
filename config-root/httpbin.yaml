@@ -22,9 +22,4 @@ spec:
       - image: docker.io/citizenstig/httpbin
         name: *app
         ports:
-        - containerPort: &port 8080
-        livenessProbe:
-          httpGet:
-            path: /get
-            port: *port
-          timeoutSeconds: 1
+        - containerPort: 8080
