@@ -1,9 +1,8 @@
-
 apiVersion: networking.gke.io/v1
 kind: MultiClusterIngress
 metadata:
+  namespace: httpbin
   name: zone-ingress
-  namespace: zoneprinter
 spec:
   template:
     spec:

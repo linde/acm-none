@@ -1,13 +1,13 @@
 apiVersion: networking.gke.io/v1
 kind: MultiClusterService
 metadata:
+  namespace: httpbin
   name: zone-mcs
-  namespace: zoneprinter
 spec:
   template:
     spec:
       selector:
-        app: zoneprinter
+        app: httpbin
       ports:
       - name: web
         protocol: TCP
