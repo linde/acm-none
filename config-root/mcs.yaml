@@ -9,7 +9,6 @@ spec:
       selector:
         app: httpbin
       ports:
-      - name: web
-        protocol: TCP
+      - name: http
         port: 8080
         targetPort: 8080
