@@ -8,5 +8,4 @@ spec:
     spec:
       backend:
         serviceName: zone-mcs
-        servicePort: 8080
-
+        servicePort: 8000
