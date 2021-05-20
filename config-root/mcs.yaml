@@ -1,0 +1,14 @@
+apiVersion: networking.gke.io/v1
+kind: MultiClusterService
+metadata:
+  namespace: httpbin
+  name: zone-mcs
+spec:
+  template:
+    spec:
+      selector:
+        app: httpbin
+      ports:
+      - name: http
+        port: 8080
+        targetPort: 8080
